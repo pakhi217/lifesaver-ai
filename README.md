@@ -1,20 +1,11 @@
 # ⚡ LifeSaver AI — The Last-Minute Life Saver
-**VIBe Coding Hackathon · Problem Statement 1**
+**An AI-powered productivity companion that proactively helps users plan, prioritize, and complete tasks before deadlines are missed.**
 
-> An AI-powered productivity companion that proactively helps you plan, prioritize, and complete tasks before deadlines are missed.
+LifeSaver AI combines intelligent task management, habit tracking, scheduling, and AI-powered guidance to help users stay productive and avoid missing important deadlines.
+
+
 
 **Powered by Google Gemini (Google AI Studio)**
-
----
-
-## 🚀 Quick Start (Demo)
-
-Open `LifeSaverAI-demo.jsx` directly as a React artifact in Claude.ai — no build step needed.
-
-To activate AI features:
-1. Go to [aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
-2. Create a free API key
-3. Paste it in the banner on the **Dashboard** tab
 
 ---
 
@@ -72,6 +63,21 @@ lifesaver-ai/
 ```
 
 ---
+## 🛠 Tech Stack
+
+| Technology            | Purpose          |
+|----------------------|------------------|
+| React               | Frontend UI      |
+| Vite                | Build Tool       |
+| JavaScript          | Application Logic|
+| Framer Motion       | Animations       |
+| Lucide React        | Icons            |
+| Gemini 2.0 Flash    | AI Features      |
+| Google AI Studio    | AI API           |
+| Web Speech API      | Voice Input      |
+| Local Storage       | Persistence      |
+
+
 
 ## ✨ Features
 
@@ -97,27 +103,17 @@ lifesaver-ai/
 
 ## 🤖 Gemini API Usage
 
-All AI calls go through `utils/gemini.js` using the `gemini-2.0-flash` model via:
+1.Visit Google AI Studio.
 
-```
-https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
-```
+2.Create a free API key.
 
-This is the **Google AI Studio** API endpoint as required by the problem statement.
+3.Open the application.
 
----
+4.Paste the API key into the dashboard
 
-## 🏆 Judging Alignment
+## 👨‍💻 Developer
+PAKHI SAXENA
 
-| Evaluation Criterion | How It's Met |
-|---|---|
-| Google AI Studio as core tool | Gemini 2.0 Flash via AI Studio API throughout |
-| Intelligent task prioritization | Live urgency score = deadline + priority formula |
-| AI-powered scheduling | Gemini suggests calendar slots; drag-and-drop UI |
-| Proactive AI (not reactive reminders) | Auto-alerts fire unprompted every 5 minutes |
-| Personalized recommendations | Gemini reads full task + habit context per call |
-| Calendar integration | Weekly grid with drag-and-drop scheduling |
-| Goal and habit tracking | 7-day grid, streaks, daily check-in |
-| Voice-enabled assistance | Web Speech API on tasks + AI coach |
-| Autonomous planning | Action Plan tab generates full day schedule |
-| Rescue Mode | Signature feature — full-screen AI-powered focus |
+## 📖 About
+
+LifeSaver AI was originally built as a submission for the VIBe Coding Hackathon and continues to evolve as an AI-powered productivity companion powered by Google Gemini.
