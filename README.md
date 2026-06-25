@@ -9,6 +9,9 @@ LifeSaver AI combines intelligent task management, habit tracking, scheduling, a
 
 ---
 
+# LIVE DEMO 
+https://lifesaver-ai-ecru.vercel.app/
+
 ## 🏗 Full Project Setup (Vite)
 
 ```bash
