@@ -8,7 +8,11 @@ LifeSaver AI combines intelligent task management, habit tracking, scheduling, a
 **Powered by Google Gemini (Google AI Studio)**
 
 ---
-
+## ⚡ Quick Start
+1. Clone the repo
+2. Get a free API key at aistudio.google.com/app/apikey
+3. Paste it in the banner shown on the Dashboard tab
+4. All AI features activate instantly — no backend needed
 # LIVE DEMO 
 https://lifesaver-ai-ecru.vercel.app/
 
